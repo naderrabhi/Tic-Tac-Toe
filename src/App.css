@@ -1,0 +1,28 @@
+.game {
+  min-height: 100vh;
+  background: #226293;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+
+button.square {
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  font-size: 3rem;
+  border: #ffcc00 solid 0.5px;
+  color: #ffcc00;
+}
+
+.status {
+  font-size: 2rem;
+}
+
+.board-row {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
